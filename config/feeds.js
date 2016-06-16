@@ -1,23 +1,26 @@
 exports.feeds = {
     'first': { // Each feed needs to have an unique key.
-        secret: 'this is the secret for my first agregate', // Optional but you should put a random sentence here to make things secure.
-        name: "My very first agregate feed",
+        secret: 'art needs determination', // Optional but you should put a random sentence here to make things secure.
+        name: "Artmarq News Mix",
         sources: [
-            "http://push-pub.appspot.com/feed",
-            "http://techcrunch.com/feed/",
-            "http://feeds.feedburner.com/ommalik",
-            "http://feeds2.feedburner.com/thenextweb",
-            "http://pandodaily.com/feed",
-            "http://news.ycombinator.com/rss"
+            "http://feeds.feedburner.com/Wallpaperfeed"
+			"http://www.observer.com/art/feed"
+			"http://online.wsj.com/xml/rss/3_7201.xml"
+			"http://feeds.wsjonline.com/wsj/video/life-and-style/feed"
+			"http://feeds.wsjonline.com/wsj/video/arts-and-entertainment/feed"
+			"http://feeds.wsjonline.com/wsj/video/fashion/feed"
+			"http://www.nytimes.com/services/xml/rss/nyt/Arts.xml"
+			"http://www.nytimes.com/services/xml/rss/nyt/InternationalArts.xml"
+			"http://www.theartnewspaper.com/rss/rss.xml" 			
         ]
     },
-    'profiles': {
-        secret: 'another secret for my profiles feed', // Optional but you should put a random sentence here to make things secure.
-        name: "This feed agregates some of my known profiles on the web.",
+    'profiles LA': {
+        secret: 'and it needs focus', // Optional but you should put a random sentence here to make things secure.
+        name: "Artmarq Profiles from LA",
         sources: [
-            "https://github.com/superfeedr.atom",
-            "http://blog.msgboy.com/rss",
-            "http://blog.superfeedr.com/atom",
+            "http://www.latimes.com/entertainment/arts/rss2.0.xml",
+            "http://www.latimes.com/entertainment/arts/culture/rss2.0.xml",
+            "http://feeds.feedburner.com/CultureMonster",
             "http://superfeedr.tumblr.com/rss",
         ]
     }
